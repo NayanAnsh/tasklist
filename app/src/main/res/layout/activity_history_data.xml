@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:layout_height="match_parent"
+    tools:context="com.example.nayan.tasklist.history_data">
+    <TextView
+        android:id="@+id/textHistoryDate"
+        android:text="Date"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+<TextView
+    android:paddingLeft="24dp"
+    android:padding="8dp"
+    android:fontFamily="sans-serif-smallcap"
+    android:textSize="16sp"
+    android:id="@+id/textHistoryData"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+</LinearLayout>

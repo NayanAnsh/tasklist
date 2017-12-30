@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:orientation="horizontal"
+    android:id="@+id/updateLayout"
+android:descendantFocusability="afterDescendants"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<EditText
+    android:id="@+id/updateField"
+        android:layout_weight="1"
+    android:layout_width="0dp"
+
+    android:layout_height="wrap_content"
+    android:layout_toLeftOf="@+id/updateButton"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true" />
+
+    <ImageButton
+            android:background="@drawable/ic_edit_black_24dp"
+        android:id="@+id/updateButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+         />
+
+</LinearLayout>

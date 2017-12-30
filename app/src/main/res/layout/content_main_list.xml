@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.nayan.tasklist.mainList"
+    tools:showIn="@layout/activity_main_list">
+    <ImageView
+        android:background="@drawable/tasklist_default_background"
+        android:id="@+id/wallpaper"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        />
+
+    <com.baoyz.swipemenulistview.SwipeMenuListView
+
+        android:id="@+id/list_item"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:descendantFocusability="blocksDescendants">
+    </com.baoyz.swipemenulistview.SwipeMenuListView>
+
+
+
+
+</RelativeLayout>

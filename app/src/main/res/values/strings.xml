@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">task list</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_getdata">getdata</string>
+    <string name="appwidget_text">this is example of widget for TASKLIST</string>
+    <string name="add_widget">Add widget</string>
+
+    <string name="title_activity_schedule_activity">schedule_activity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+</resources>
